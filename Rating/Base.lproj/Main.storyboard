@@ -135,14 +135,19 @@
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="c4J-AJ-LgW">
-                                                    <rect key="frame" x="0.0" y="7" width="320" height="30"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="c4J-AJ-LgW">
+                                                    <rect key="frame" x="8" y="6.5" width="304" height="30.5"/>
                                                     <nil key="textColor"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <textInputTraits key="textInputTraits"/>
                                                 </textField>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottomMargin" secondItem="c4J-AJ-LgW" secondAttribute="bottom" constant="-4" id="Cde-sv-jaJ"/>
+                                                <constraint firstAttribute="trailing" secondItem="c4J-AJ-LgW" secondAttribute="trailing" constant="8" id="HvE-Kr-Ixs"/>
+                                                <constraint firstItem="c4J-AJ-LgW" firstAttribute="leading" secondItem="Y7i-4U-jxU" secondAttribute="leading" constant="8" id="MW5-xZ-277"/>
+                                                <constraint firstItem="c4J-AJ-LgW" firstAttribute="centerY" secondItem="Y7i-4U-jxU" secondAttribute="centerY" id="aVZ-Fm-iTc"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </cells>
