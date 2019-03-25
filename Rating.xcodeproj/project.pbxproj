@@ -15,6 +15,7 @@
 		FECB94D02248190600E3182B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FECB94CE2248190600E3182B /* Main.storyboard */; };
 		FECB94D22248190800E3182B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FECB94D12248190800E3182B /* Assets.xcassets */; };
 		FECB94D52248190800E3182B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FECB94D32248190800E3182B /* LaunchScreen.storyboard */; };
+		FEFDBA2422494E71001855A4 /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFDBA2322494E71001855A4 /* PlayerCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		FECB94D12248190800E3182B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FECB94D42248190800E3182B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FECB94D62248190800E3182B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEFDBA2322494E71001855A4 /* PlayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				FECB94CC2248190600E3182B /* ViewController.swift */,
 				FECB94CE2248190600E3182B /* Main.storyboard */,
 				FE46A4112248220A001A3AF8 /* Player.swift */,
+				FEFDBA2322494E71001855A4 /* PlayerCell.swift */,
 				FE46A41322482255001A3AF8 /* SampleData.swift */,
 				FE46A40F224821DE001A3AF8 /* PlayerViewController.swift */,
 				FECB94D12248190800E3182B /* Assets.xcassets */,
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEFDBA2422494E71001855A4 /* PlayerCell.swift in Sources */,
 				FE46A4122248220A001A3AF8 /* Player.swift in Sources */,
 				FECB94CD2248190600E3182B /* ViewController.swift in Sources */,
 				FECB94CB2248190600E3182B /* AppDelegate.swift in Sources */,

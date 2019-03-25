@@ -24,11 +24,10 @@ extension PlayerViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "PlayerCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "PlayerCell", for: indexPath) as! PlayerCell
         
         let player = players[indexPath.row]
-        cell.textLabel?.text = player.name
-        cell.detailTextLabel?.text = player.game
+        cell.player = player
         return cell
         
     }
