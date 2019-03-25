@@ -200,7 +200,7 @@
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="done" id="Ybi-LD-1eE">
                             <connections>
-                                <segue destination="VvF-t2-Fx9" kind="unwind" unwindAction="savePlayerDetail:" id="V69-Sa-bOQ"/>
+                                <segue destination="VvF-t2-Fx9" kind="unwind" identifier="SavePlayerDetail" unwindAction="savePlayerDetail:" id="V69-Sa-bOQ"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>

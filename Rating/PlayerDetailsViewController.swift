@@ -9,11 +9,18 @@
 import UIKit
 
 class PlayerDetailsViewController: UITableViewController {
-
+    // MARK: Properties
+    var player: Player?
     
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var detailLabel: UILabel!
     
+    // MARK: Navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "SavePlayerDetail", let playerName = nameTextField.text {
+            player = Player(name: playerName, game: "Lompat Tali", rating: 1)
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
