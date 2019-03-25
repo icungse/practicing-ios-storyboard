@@ -30,6 +30,10 @@ extension PlayerViewController {
         // add the new player to the players array
         players.append(player)
         
+        // update the tableView
+        let indexPath = IndexPath(row: players.count - 1, section:0)
+        tableView.insertRows(at: [indexPath], with: .automatic)
+        
     }
 }
 
