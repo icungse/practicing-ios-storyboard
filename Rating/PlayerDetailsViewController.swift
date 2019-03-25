@@ -10,6 +10,11 @@ import UIKit
 
 class PlayerDetailsViewController: UITableViewController {
 
+    
+    @IBOutlet weak var nameTextField: UITextField!
+    @IBOutlet weak var detailLabel: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
