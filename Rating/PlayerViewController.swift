@@ -15,6 +15,17 @@ class PlayerViewController: UITableViewController {
     
 }
 
+//MARK: IBAction
+extension PlayerViewController {
+    @IBAction func cancelToPlayersViewController(_ segue: UIStoryboardSegue) {
+        
+    }
+    
+    @IBAction func savePlayerDetail(_ segue: UIStoryboardSegue) {
+        
+    }
+}
+
 // MARK: UITableViewDataSource
 
 extension PlayerViewController {

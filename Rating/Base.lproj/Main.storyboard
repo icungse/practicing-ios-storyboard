@@ -120,7 +120,7 @@
         <!--Add Player-->
         <scene sceneID="Nl2-B3-bwK">
             <objects>
-                <tableViewController id="F5g-Hy-jI2" sceneMemberID="viewController">
+                <tableViewController id="F5g-Hy-jI2" customClass="PlayerDetailsViewController" customModule="Rating" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="G5C-K5-1cf">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -141,11 +141,20 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Add Player" id="Fpv-DB-80i">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="5WQ-yo-42X"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="Ybi-LD-1eE"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="5WQ-yo-42X">
+                            <connections>
+                                <segue destination="VvF-t2-Fx9" kind="unwind" unwindAction="cancelToPlayersViewController:" id="FZe-zW-gX3"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="Ybi-LD-1eE">
+                            <connections>
+                                <segue destination="VvF-t2-Fx9" kind="unwind" unwindAction="savePlayerDetail:" id="V69-Sa-bOQ"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Uhk-RI-QMX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="VvF-t2-Fx9" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="3116.25" y="-477.46478873239437"/>
         </scene>

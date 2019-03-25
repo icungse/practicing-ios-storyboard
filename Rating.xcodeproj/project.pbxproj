@@ -10,6 +10,7 @@
 		FE46A410224821DE001A3AF8 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE46A40F224821DE001A3AF8 /* PlayerViewController.swift */; };
 		FE46A4122248220A001A3AF8 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE46A4112248220A001A3AF8 /* Player.swift */; };
 		FE46A41422482255001A3AF8 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE46A41322482255001A3AF8 /* SampleData.swift */; };
+		FE690AD122496CC50017DF55 /* PlayerDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE690AD022496CC50017DF55 /* PlayerDetailsViewController.swift */; };
 		FECB94CB2248190600E3182B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECB94CA2248190600E3182B /* AppDelegate.swift */; };
 		FECB94CD2248190600E3182B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECB94CC2248190600E3182B /* ViewController.swift */; };
 		FECB94D02248190600E3182B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FECB94CE2248190600E3182B /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 		FE46A40F224821DE001A3AF8 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		FE46A4112248220A001A3AF8 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		FE46A41322482255001A3AF8 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		FE690AD022496CC50017DF55 /* PlayerDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailsViewController.swift; sourceTree = "<group>"; };
 		FECB94C72248190600E3182B /* Rating.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rating.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FECB94CA2248190600E3182B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FECB94CC2248190600E3182B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				FE46A4112248220A001A3AF8 /* Player.swift */,
 				FEFDBA2322494E71001855A4 /* PlayerCell.swift */,
 				FE46A41322482255001A3AF8 /* SampleData.swift */,
+				FE690AD022496CC50017DF55 /* PlayerDetailsViewController.swift */,
 				FE46A40F224821DE001A3AF8 /* PlayerViewController.swift */,
 				FECB94D12248190800E3182B /* Assets.xcassets */,
 				FECB94D32248190800E3182B /* LaunchScreen.storyboard */,
@@ -150,6 +153,7 @@
 				FEFDBA2422494E71001855A4 /* PlayerCell.swift in Sources */,
 				FE46A4122248220A001A3AF8 /* Player.swift in Sources */,
 				FECB94CD2248190600E3182B /* ViewController.swift in Sources */,
+				FE690AD122496CC50017DF55 /* PlayerDetailsViewController.swift in Sources */,
 				FECB94CB2248190600E3182B /* AppDelegate.swift in Sources */,
 				FE46A41422482255001A3AF8 /* SampleData.swift in Sources */,
 				FE46A410224821DE001A3AF8 /* PlayerViewController.swift in Sources */,
